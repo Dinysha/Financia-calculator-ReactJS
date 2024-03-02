@@ -1,0 +1,14 @@
+.content {
+  text-align: center;
+  min-height: 100vh;
+  color: white;
+  background-color: #242527;
+  padding: 40px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80%;
+}

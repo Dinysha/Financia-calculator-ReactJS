@@ -1,0 +1,10 @@
+.card {
+  background: rgba(255, 255, 255, 0.192);
+  color: #fff;
+  backdrop-filter: blur(10px);
+  min-height: 150px;
+  width: 600px;
+  border-radius: 15px;
+  border: 1px solid rgba(43, 43, 43, 0.568);
+  margin: auto;
+}
