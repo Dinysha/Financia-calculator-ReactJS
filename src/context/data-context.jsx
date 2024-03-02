@@ -3,35 +3,7 @@ import { createContext, useEffect, useState } from 'react'
 export const DataArrayContext = createContext()
 
 let nextId = 4
-export const INITIAL_STATE = [
-  {
-    id: 1,
-    operation: true,
-    title: 'Прил',
-    category: 'машина',
-    color: 'cyan',
-    date: new Date(2024, 2, 19),
-    amount: 250,
-  },
-  {
-    id: 2,
-    operation: false,
-    title: 'Коммуналкаffffffff',
-    category: 'дом',
-    color: 'lime',
-    date: new Date(2023, 2, 20),
-    amount: 3500,
-  },
-  {
-    id: 3,
-    operation: true,
-    title: 'Игрушки',
-    category: 'другое',
-    color: '#dd98ff',
-    date: new Date(2024, 4, 1),
-    amount: 1100,
-  },
-]
+export const INITIAL_STATE = []
 
 export function DataContext({ children }) {
   const [addDataArray, setAddDataArray] = useState(() => {
